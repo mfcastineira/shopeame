@@ -1,0 +1,32 @@
+nav {
+  background-color: #f5f5b4;
+  padding: 15px;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+nav ul li {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style: none;
+}
+
+nav ul li a {
+  margin: 20px;
+  text-decoration: none;
+  color: #949090;
+}
+
+nav ul li a:hover {
+  color: chocolate;
+}
+/*# sourceMappingURL=navbar.component.css.map */

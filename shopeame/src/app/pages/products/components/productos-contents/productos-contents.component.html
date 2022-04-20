@@ -1,0 +1,10 @@
+<h1>Productos</h1>
+<div>
+    <div class="card" *ngFor="let productos of dataInf">
+        <h3>{{productos.name}}</h3>
+        <img src="{{productos.image}}" alt="{{productos.id}}">
+        <p>Precio: <span>{{productos.price}}</span> </p>
+        <p>Descripcion: <span>{{productos.description}}</span> </p>
+        <p>Estrellas: <span>{{productos.stars}}</span> </p>
+    </div>
+</div>

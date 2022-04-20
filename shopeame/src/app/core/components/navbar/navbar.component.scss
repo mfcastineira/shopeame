@@ -1,0 +1,35 @@
+nav{
+
+    background-color: rgb(200, 231, 236);
+    padding: 15px;
+    
+   
+   
+    ul{
+        display: flex;
+        flex-direction: row;
+
+       
+        li{
+            
+            justify-content: center;
+            list-style: none;
+            
+            
+           
+            a{
+                margin: 20px;
+                text-decoration: none;
+                color: rgb(148, 144, 144);
+                
+
+            
+            }
+            a:hover{
+                color:chocolate
+            }
+
+           
+        }
+    }
+}

@@ -1,0 +1,24 @@
+h1 {
+  text-align: center;
+  margin: 20px;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  border: solid 2px;
+  border-radius: 5px;
+}
+
+.card h3 {
+  text-align: center;
+}
+
+.card img {
+  width: 100px;
+}
+/*# sourceMappingURL=productos-contents.component.css.map */
